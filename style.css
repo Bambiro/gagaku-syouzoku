@@ -243,9 +243,6 @@ nav a {
 .s_section p {
     font-size: 18px;
 }
-.s_section a:hover{
-    box-shadow: 0 0 10px #1c1c1c;
-}
 
 
 .tori img {
@@ -253,6 +250,7 @@ nav a {
     top: 40px;
     left: 600px;
     transform: rotateZ(20deg);
+    z-index: 998;
 }
 .tori p {
     position: absolute;
@@ -309,6 +307,16 @@ nav a {
     top: 600px;
     left: 170px;
 }
+/* ._a {
+    display: inline-block;
+    transition: all .4s ease-in-out;
+}
+._a img {
+    display: block;
+}
+._a:hover {
+    box-shadow: 1px 1px 12px rgba(0,0,0,.65);
+} */
 
 
 #ennmoku {
