@@ -65,20 +65,44 @@ nav a {
     color: #fffffb;
 }
 
-.fv {
-    width: 100vw;
-    height: 100vh;
-    background-image: url(images/sa-sitagasane.png);
-    background-position: center center;
-    background-size: cover;
+.container {
+    position: relative;
+	width: 100vw;
+	height: 102vh;
+}
+
+.image {
+    position: absolute;
+	width: 100%;
+	opacity: 0;
+	animation: change-img-anim 28s infinite;
+}
+.image:nth-of-type(1) {
+	animation-delay: 0s;
+}
+.image:nth-of-type(2) {
+	animation-delay: 7s;
+}
+.image:nth-of-type(3) {
+	animation-delay: 14s;
+}
+.image:nth-of-type(4) {
+	animation-delay: 21s;
+}
+@keyframes change-img-anim {
+	0%{ opacity: 0;}
+	20%{ opacity: 1;}
+	30%{ opacity: 1;}
+	35%{ opacity: 0;}
+	100%{ opacity: 0;}
 }
 
 .fv h1{
     writing-mode: vertical-rl;
     color: #1c1c1c;
     font-size: 24px;
-    position: relative;
-    top: 165px;
+    position: absolute;
+    top: 310px;
     left: 1250px;
     font-family: 'Noto Serif JP', serif;
     font-family: 'Shippori Mincho', serif;
