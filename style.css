@@ -94,8 +94,19 @@ nav a {
     padding: 160px;
     background-color: #fffffb;
 }
+
+.fadein {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: all 1.5s;
+}
+
 #about {
     margin-bottom: 280px;
+}
+
+#about h1 {
+    padding-top: 60px;
 }
 
 #about p {
@@ -262,17 +273,17 @@ nav a {
 
 .photo1 {
     left: 60px;
-    top: 160px;
+    top: -30px;
 }
 
 .photo2 {
     left: 740px;
-    top: 540px;
+    top: -30px;
 }
 
 .photo3 {
     left: 60px;
-    top: 920px;
+    top: -30px;
 }
 
 .photo4 {
@@ -295,12 +306,30 @@ nav a {
     position: absolute;
     width: 250px;
     left: 960px;
-    top: 1160px;
+    top: 1190px;
     transform: rotateZ(15deg);
 }
 
 .photo p {
     padding-top: 20px;
+}
+
+.fadein1-1 {
+    opacity: 0;
+    transform: translateY(10px);
+    transition: all 1.5s;
+}
+
+.fadein1-2 {
+    opacity: 0;
+    transform: translateY(0px);
+    transition: all 1.5s;
+}
+
+.fadein1-3 {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 1.5s;
 }
 
 .ryouou {
@@ -347,6 +376,12 @@ nav a {
     display: flex;
     justify-content: space-between;
     padding-top: 40px;
+}
+
+.fadein2 {
+    opacity: 0;
+    transform: translateY(10px);
+    transition: all 1.2s;
 }
 
 .link p {

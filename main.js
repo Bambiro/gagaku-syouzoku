@@ -12,14 +12,18 @@ $(function(){
         return false;
     });
 
-    // ============
-    // a処理を一旦リセット
-    // ============
+    $(window).scroll(function () {
+        var targetElement = $('.fadein').offset().top;
+        var scroll = $(window).scrollTop();
+        var windowHeight = $(window).height();
+        if (scroll > targetElement - windowHeight + 200) {
+            $('.fadein').css('opacity','1');
+            $('.fadein').css('transform','translateY(0)');
+        }
+    });
+
     $('a[data-modal-org-target]').off('click');
  
-    // ============
-    // U a-modal-org
-    // ============
     if($('.a-modal-org').length){
         var overlay = $('.a-modal-org-overlay');
  
@@ -58,7 +62,6 @@ $(function(){
  
             }
 
-            // モーダルの高さ監視
             function modal_org_height(){
                 if (modalTarget.is(':visible')) {
                     modalTargetBody.css("max-height", "none");
@@ -79,38 +82,36 @@ $(function(){
 
             function modal_org_open(){
                 scroll_lock();
-                // モーダルチェック
+               
                 modalTarget.css('opacity','0').show();
                 modalTargetScroll.scrollTop(0);
                 modal_org_height();
                 modalTarget.hide().css('opacity','1');
-                // モーダル表示
+                
                 modalTarget.fadeIn(600, function(){
                     $(this).attr('aria-expanded', 'true');
                 });
                 modalTarget.attr('tabindex',1).focus().attr('tabindex','');
-                // if(overlay) overlay.fadeIn(200);
-                if(overlay) a_modal_org_overlay(true, 200);         // a-modal-org-overlay用
+                
+                if(overlay) a_modal_org_overlay(true, 200);         
             }
             function modal_org_close(){
                 scroll_lock_off();
                 modalTarget.attr('aria-expanded', 'false').fadeOut();
-                // if(overlay) overlay.off().fadeOut();
-                if(overlay) a_modal_org_overlay(false, 'fast');         // a-modal-org-overlay用
+                
+                if(overlay) a_modal_org_overlay(false, 'fast');         
             }
  
         });
     }
-    // ============
-    // U scroll_lock
-    // ============
+   
     var uA = navigator.userAgent;
-    var os = osCh();                                //iOS,ipadOS,Android,Mac,Win
+    var os = osCh();                                
     function osCh(){
         if (uA.indexOf('iPhone') > -1 || uA.indexOf('iPod') > -1 || uA.indexOf('iPad') > -1) return "iOS";
         if (uA.indexOf('Android') > -1) return "Android";
         if (uA.indexOf("Mac") != -1 && !('ontouchend' in document)) return "Mac";
-        if (uA.indexOf("Mac") != -1 && 'ontouchend' in document) return "ipadOS";           // safari only
+        if (uA.indexOf("Mac") != -1 && 'ontouchend' in document) return "ipadOS";          
         if (uA.indexOf("Win") != -1) return "Win";
         return "unknown";
     }
@@ -126,7 +127,7 @@ $(function(){
             diff = noScrollBarWidth - clientWidth;
             if(diff > 0){
                 $('body').css({'padding-right': diff + 'px'});
-                // if(headerFixedItem && $('[data-header-fixed="true"]').length) headerFixedItem.css({'padding-right': diff + 'px'});
+               
             };
         }
     }
@@ -137,13 +138,9 @@ $(function(){
         }else{
             $('body').css({'overflow': 'auto'});
             $('body').css({'padding-right': '0'});
-            // if(headerFixedItem) headerFixedItem.css({'padding-right': 0});
         }
     }
  
-    // ============
-    // U a-modal-org-overlay
-    // ============
     function a_modal_org_overlay(flag,speed){
         var overlay = $('.a-modal-org-overlay');
         if(overlay.length){
@@ -155,4 +152,42 @@ $(function(){
         }
     }
  
+    $(window).scroll(function () {
+        var targetElement = $('.fadein1-1').offset().top;
+        var scroll = $(window).scrollTop();
+        var windowHeight = $(window).height();
+        if (scroll > targetElement - windowHeight + 200) {
+            $('.fadein1-1').css('opacity','1');
+            $('.fadein1-1').css('transform','translateY(0)');
+        }
+    });
+    $(window).scroll(function () {
+        var targetElement = $('.fadein1-2').offset().top;
+        var scroll = $(window).scrollTop();
+        var windowHeight = $(window).height();
+        if (scroll > targetElement - windowHeight + 200) {
+            $('.fadein1-2').css('opacity','1');
+            $('.fadein1-2').css('transform','translateY(0)');
+        }
+    });
+    $(window).scroll(function () {
+        var targetElement = $('.fadein1-3').offset().top;
+        var scroll = $(window).scrollTop();
+        var windowHeight = $(window).height();
+        if (scroll > targetElement - windowHeight + 200) {
+            $('.fadein1-3').css('opacity','1');
+            $('.fadein1-3').css('transform','translateY(0)');
+        }
+    });
+
+    $(window).scroll(function () {
+        var targetElement = $('.fadein2').offset().top;
+        var scroll = $(window).scrollTop();
+        var windowHeight = $(window).height();
+        if (scroll > targetElement - windowHeight + 200) {
+            $('.fadein2').css('opacity','1');
+            $('.fadein2').css('transform','translateY(0)');
+        }
+    });
+
 });
