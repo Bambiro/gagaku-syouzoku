@@ -28,6 +28,42 @@ p {
     font-family: 'Shippori Mincho', serif;
 }
 
+#header{
+    /*fixedで上部固定*/
+	position: fixed;
+	width:100%;
+    z-index: 999;/*最前面へ*/
+}
+
+#header.UpMove{
+	animation: UpAnime 0.5s forwards;
+}
+
+@keyframes UpAnime{
+  from {
+    opacity: 1;
+	transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+	transform: translateY(-100px);
+  }
+}
+
+#header.DownMove{
+	animation: DownAnime 0.5s forwards;
+}
+@keyframes DownAnime{
+  from {
+  	opacity: 0;
+	transform: translateY(-100px);
+  }
+  to {
+  	opacity: 1;
+	transform: translateY(0);
+  }
+}
+
 nav {
     height: 160px;
     display: flex;
@@ -73,21 +109,22 @@ nav a {
 
 .image {
     position: absolute;
+    margin-top: 160px;
 	width: 100%;
 	opacity: 0;
-	animation: change-img-anim 28s infinite;
+	animation: change-img-anim 20s infinite;
 }
 .image:nth-of-type(1) {
 	animation-delay: 0s;
 }
 .image:nth-of-type(2) {
-	animation-delay: 7s;
+	animation-delay: 5s;
 }
 .image:nth-of-type(3) {
-	animation-delay: 14s;
+	animation-delay: 10s;
 }
 .image:nth-of-type(4) {
-	animation-delay: 21s;
+	animation-delay: 15s;
 }
 @keyframes change-img-anim {
 	0%{ opacity: 0;}
@@ -110,12 +147,14 @@ nav a {
   }
 
 .orange {
+    margin-top: 160px;
     padding: 50px 50px 0;
     background-color: #ED6139;
 }
 
 .white {
-    padding: 160px;
+    margin-top: 0px;
+    padding: 0 160px 160px;
     background-color: #fffffb;
 }
 
@@ -127,6 +166,7 @@ nav a {
 
 #about {
     margin-bottom: 280px;
+    padding-top: 150px;
 }
 
 #about h1 {
@@ -166,6 +206,7 @@ nav a {
     margin-top: 60px;
     font-family: 'Noto Serif JP', serif;
     font-family: 'Shippori Mincho', serif;
+    position: relative;
 }
 .hidari .moji {
     padding: 44px;
