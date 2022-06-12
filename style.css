@@ -9,19 +9,16 @@ h1 {
     font-family: 'Noto Serif JP', serif;
     font-family: 'Shippori Mincho', serif;
 }
-
 h2 {
     font-size: 24px;
     font-family: 'Noto Serif JP', serif;
     font-family: 'Shippori Mincho', serif;
 }
-
 h3 {
     font-size: 16px;
     font-family: 'Noto Serif JP', serif;
     font-family: 'Shippori Mincho', serif;
 }
-
 p {
     font-size: 16px;
     font-family: 'Noto Serif JP', serif;
@@ -34,11 +31,9 @@ p {
 	width:100%;
     z-index: 999;/*最前面へ*/
 }
-
 #header.UpMove{
 	animation: UpAnime 0.5s forwards;
 }
-
 @keyframes UpAnime{
   from {
     opacity: 1;
@@ -49,7 +44,6 @@ p {
 	transform: translateY(-100px);
   }
 }
-
 #header.DownMove{
 	animation: DownAnime 0.5s forwards;
 }
@@ -72,7 +66,6 @@ nav {
     padding-right: 160px;
     background-color: #ED6139;
 }
-
 nav p {
     writing-mode: vertical-rl;
     font-size: 40px;
@@ -80,20 +73,17 @@ nav p {
     color: #fffffb;
     padding-top: 16px;
 }
-
 nav ul {
     display: flex;
     width: 330px;
     justify-content: space-between;
 }
-
 nav li {
     writing-mode: vertical-rl;
     font-family: 'Noto Serif JP', serif;
     font-family: 'Shippori Mincho', serif;
     list-style: none;
 }
-
 nav a {
     text-decoration: none;
     padding-top: 20px;
@@ -172,7 +162,6 @@ nav a {
 #about h1 {
     padding-top: 60px;
 }
-
 #about p {
     padding-top: 20px;
 }
@@ -196,7 +185,6 @@ nav a {
     display: flex;
     justify-content: space-between;
 }
-
 
 .hidari {
     display: flex;
@@ -245,7 +233,6 @@ nav a {
     position: relative;
     padding-bottom: 1000px;
 }
-
 #gara p {
     padding-top: 20px;
 }
@@ -287,7 +274,7 @@ nav a {
 .hana1 p {
     position: absolute;
     top: 350px;
-    left: 470px;
+    left: 450px;
 }
 .tyou img {
     width: 180px;
@@ -297,7 +284,7 @@ nav a {
 .tyou p {
     position: absolute;
     top: 360px;
-    left: 150px;
+    left: 130px;
 }
 .ryu img {
     position: absolute;
@@ -335,22 +322,18 @@ nav a {
     height: 210px;
     border: #fffffb solid 5px;
 }
-
 .photo1 {
     left: 60px;
     top: -30px;
 }
-
 .photo2 {
     left: 740px;
     top: -30px;
 }
-
 .photo3 {
     left: 60px;
     top: -30px;
 }
-
 .photo4 {
     position: absolute;
     width: 160px;
@@ -358,7 +341,6 @@ nav a {
     top: 400px;
     transform: rotateZ(20deg);
 }
-
 .photo5 {
     position: absolute;
     width: 100px;
@@ -366,7 +348,6 @@ nav a {
     top: 30px;
     transform: rotateZ(15deg);
 }
-
 .photo6 {
     position: absolute;
     width: 250px;
@@ -374,7 +355,6 @@ nav a {
     top: 1190px;
     transform: rotateZ(15deg);
 }
-
 .photo p {
     padding-top: 20px;
 }
@@ -384,13 +364,11 @@ nav a {
     transform: translateY(10px);
     transition: all 1.5s;
 }
-
 .fadein1-2 {
     opacity: 0;
     transform: translateY(0px);
     transition: all 1.5s;
 }
-
 .fadein1-3 {
     opacity: 0;
     transform: translateY(30px);
@@ -428,11 +406,9 @@ nav a {
     padding: 140px 150px 90px;
     color: #fffffb;
 }
-
 #link h1 {
     padding: 100px 10px 0;
 }
-
 #link p {
     text-align: center;
 }
@@ -510,10 +486,6 @@ footer {
 }
 
 
-/*=========
-project - modal-org
-=========*/
- 
 .a-modal-org {
     display: none;
     position: fixed;
@@ -588,91 +560,192 @@ project - modal-org
     width: 350px;
 }
 
+.a-modal-org__scroll p {
+    margin-top: 40px;
+}
+.a-modal-org__scroll h3 {
+    font-size: 20px;
+    margin-top: 130px;
+}
+
 .memo-a {
     display: flex;
+    position: relative;
 }
 .memo-a1 {
     padding-left: 80px;
 }
-.memo-a1 p {
-    margin-top: 40px;
-}
-.memo-a1 h3 {
-    margin-top: 130px;
-}
-.memo-a1 img {
+.memo-a1 .img1 {
     position: absolute;
+    width: 100px;
+    left: 620px;
+    top: 150px;
+    transform: rotateZ(20deg);
+}
+.memo-a1 .img2 {
+    position: absolute;
+    width: 80px;
+    left: 920px;
+    top: 330px;
+    transform: rotateZ(0deg);
+    z-index: 999;
+}
+.memo-a1 .img3 {
+    position: absolute;
+    width: 130px;
+    left: 800px;
+    top: 360px;
+    transform: rotateZ(20deg);
 }
 
 .memo-b {
     display: flex;
+    position: relative;
 }
 .memo-b1 {
     padding-left: 80px;
 }
-.memo-b1 p {
-    margin-top: 40px;
-}
-.memo-b1 h3 {
-    margin-top: 130px;
-}
-.memo-b1 img {
+.memo-b1 .img1 {
     position: absolute;
+    width: 100px;
+    left: 620px;
+    top: 150px;
+    transform: rotateZ(20deg);
+}
+.memo-b1 .img2 {
+    position: absolute;
+    width: 80px;
+    left: 920px;
+    top: 330px;
+    transform: rotateZ(0deg);
+    z-index: 999;
+}
+.memo-b1 .img3 {
+    position: absolute;
+    width: 130px;
+    left: 800px;
+    top: 360px;
+    transform: rotateZ(20deg);
 }
 
 .memo-c {
     display: flex;
+    position: relative;
 }
 .memo-c1 {
     padding-left: 80px;
 }
-.memo-c1 p {
-    margin-top: 40px;
-}
-.memo-c1 h3 {
-    margin-top: 130px;
-}
-.memo-c1 img {
+.memo-c1 .img1 {
     position: absolute;
+    width: 100px;
+    left: 620px;
+    top: 150px;
+    transform: rotateZ(20deg);
+}
+.memo-c1 .img2 {
+    position: absolute;
+    width: 80px;
+    left: 920px;
+    top: 330px;
+    transform: rotateZ(0deg);
+    z-index: 999;
+}
+.memo-c1 .img3 {
+    position: absolute;
+    width: 130px;
+    left: 800px;
+    top: 360px;
+    transform: rotateZ(20deg);
+}
+
+.memo-d {
+    display: flex;
+    position: relative;
+}
+.memo-d1 {
+    padding-left: 80px;
+}
+.memo-d1 .img1 {
+    position: absolute;
+    width: 100px;
+    left: 620px;
+    top: 150px;
+    transform: rotateZ(20deg);
+}
+.memo-d1 .img2 {
+    position: absolute;
+    width: 80px;
+    left: 920px;
+    top: 330px;
+    transform: rotateZ(0deg);
+    z-index: 999;
+}
+.memo-d1 .img3 {
+    position: absolute;
+    width: 130px;
+    left: 800px;
+    top: 360px;
+    transform: rotateZ(20deg);
 }
 
 .memo-e {
     display: flex;
+    position: relative;
 }
 .memo-e1 {
     padding-left: 80px;
 }
-.memo-e1 p {
-    margin-top: 40px;
-}
-.memo-e1 h3 {
-    margin-top: 130px;
-}
-.memo-e1 img {
+.memo-e1 .img1 {
     position: absolute;
+    width: 100px;
+    left: 620px;
+    top: 150px;
+    transform: rotateZ(20deg);
+}
+.memo-e1 .img2 {
+    position: absolute;
+    width: 80px;
+    left: 920px;
+    top: 360px;
+    transform: rotateZ(0deg);
+    z-index: 999;
+}
+.memo-e1 .img3 {
+    position: absolute;
+    width: 130px;
+    left: 800px;
+    top: 390px;
+    transform: rotateZ(20deg);
 }
 
 .memo-f {
     display: flex;
+    position: relative;
 }
 .memo-f1 {
     padding-left: 55px;
 }
-.memo-f1 p {
-    margin-top: 40px;
-}
-.memo-f1 h3 {
-    margin-top: 130px;
-}
-.memo-f1 img {
+.memo-f1 .img1 {
     position: absolute;
+    width: 100px;
+    left: 620px;
+    top: 150px;
+    transform: rotateZ(20deg);
 }
-
-.c1-1 {
-    width: 4px;
-    top: 20px;
-    left: 770px;
-    transform: rotateZ(15deg);
+.memo-f1 .img2 {
+    position: absolute;
+    width: 50px;
+    left: 920px;
+    top: 380px;
+    transform: rotateZ(0deg);
+    z-index: 999;
+}
+.memo-f1 .img3 {
+    position: absolute;
+    width: 90px;
+    left: 820px;
+    top: 390px;
+    transform: rotateZ(20deg);
 }
 
 .a-modal-org__close {
@@ -723,10 +796,6 @@ project - modal-org
     left: 9px;
     transform: rotate(45deg);
 }
- 
-/*=========
-utility - display-off
-=========*/
  
 .a-display-off {
     position: absolute;
