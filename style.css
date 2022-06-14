@@ -137,7 +137,7 @@ nav a {
   }
 
 .orange {
-    margin-top: 160px;
+    margin-top: 130px;
     padding: 50px 50px 0;
     background-color: #ED6139;
 }
@@ -831,7 +831,7 @@ footer {
 @media all and (max-width: 480px){
 
     h1 {
-        font-size: 36px;
+        font-size: 18px;
         font-family: 'Noto Serif JP', serif;
         font-family: 'Shippori Mincho', serif;
     }
@@ -846,7 +846,7 @@ footer {
         font-family: 'Shippori Mincho', serif;
     }
     p {
-        font-size: 16px;
+        font-size: 10px;
         font-family: 'Noto Serif JP', serif;
         font-family: 'Shippori Mincho', serif;
     }
@@ -983,7 +983,7 @@ footer {
     
     #about {
         margin-bottom: 280px;
-        padding-top: 150px;
+        margin-top: 50px;
     }
     
     #about h1 {
@@ -1009,15 +1009,14 @@ footer {
     }
     
     .bugaku {
-        display: flex;
-        justify-content: space-between;
+        
     }
     
     .hidari {
         display: flex;
         border: #ED6139 solid 3px;
-        width: 470px;
-        height: 320px;
+        width: 300px;
+        height: 210px;
         margin-top: 60px;
         font-family: 'Noto Serif JP', serif;
         font-family: 'Shippori Mincho', serif;
@@ -1037,8 +1036,8 @@ footer {
     .migi {
         display: flex;
         border: #7ba23f solid 3px;
-        width: 470px;
-        height: 320px;
+        width: 300px;
+        height: 210px;
         margin-top: 60px;
         font-family: 'Noto Serif JP', serif;
         font-family: 'Shippori Mincho', serif;
@@ -1060,79 +1059,84 @@ footer {
         position: relative;
         padding-bottom: 1000px;
     }
+
+    #gara h1 {
+        padding-top: 50px;
+    }
+
     #gara p {
-        padding-top: 20px;
+        padding-top: 10px;
     }
     
     .s_section img {
         position: absolute;
     }
     .s_section p {
-        font-size: 18px;
+        font-size: 14px;
     }
     
     
     .tori img {
-        width: 470px;
-        top: 40px;
-        left: 600px;
+        width: 240px;
+        top: 130px;
+        left: 80px;
         transform: rotateZ(20deg);
         z-index: 998;
     }
     .tori p {
         position: absolute;
-        top: 230px;
-        left: 980px;
+        top: 130px;
+        left: 250px;
     }
     .hana1 img{
-        width: 220px;
+        width: 90px;
         transform: rotateZ(10deg);
-        top: 150px;
-        left: 360px;
+        top: 270px;
+        left: 80px;
     }
     .hana2 img{
-        width: 200px;
+        width: 130px;
         transform: rotateZ(350deg);
-        top: 280px;
-        left: 510px;
+        top: 310px;
+        left: 150px;
     }
     .hana1 p {
         position: absolute;
-        top: 350px;
-        left: 450px;
+        top: 360px;
+        left: 120px;
     }
     .tyou img {
-        width: 180px;
-        top: 200px;
-        left: 160px;
+        width: 120px;
+        top: 380px;
+        left: 10px;
     }
     .tyou p {
         position: absolute;
-        top: 360px;
-        left: 130px;
+        top: 540px;
+        left: 15px;
     }
     .ryu img {
         position: absolute;
-        width: 430px;
-        top: 360px;
-        left: 640px;
+        width: 180px;
+        top: 510px;
+        left: 135px;
     }
     .ryu p {
         position: absolute;
-        top: 565px;
-        left: 970px;
+        top: 665px;
+        left: 270px;
     }
     .shishi img {
         position: absolute;
-        width: 410px;
+        width: 210px;
         transform: rotateZ(20deg);
-        top: 490px;
+        top: 710px;
         left: -20px;
     }
     .shishi p {
         position: absolute;
-        top: 600px;
-        left: 170px;
+        top: 830px;
+        left: 50px;
     }
     /* ._a {
         display: inline-block;
@@ -1148,46 +1152,47 @@ footer {
     
     #ennmoku {
         position: relative;
+        padding-top: 30px;
         margin-bottom: 100px;
     }
     
     .photo img{
         position: absolute;
-        width: 255px;
-        height: 210px;
+        width: 109px;
+        height: 93px;
         border: #fffffb solid 5px;
     }
     .photo1 {
-        left: 60px;
-        top: -30px;
+        left: 0px;
+        top: -20px;
     }
     .photo2 {
-        left: 740px;
+        left: 180px;
         top: -30px;
     }
     .photo3 {
-        left: 60px;
+        left: 0px;
         top: -30px;
     }
     .photo4 {
         position: absolute;
-        width: 160px;
-        left: -100px;
-        top: 400px;
+        width: 50px;
+        left: -20px;
+        top: 350px;
         transform: rotateZ(20deg);
     }
     .photo5 {
         position: absolute;
-        width: 100px;
-        left: 1000px;
-        top: 30px;
+        width: 60px;
+        left: 250px;
+        top: 60px;
         transform: rotateZ(15deg);
     }
     .photo6 {
         position: absolute;
-        width: 250px;
-        left: 960px;
-        top: 1190px;
+        width: 150px;
+        left: 200px;
+        top: 940px;
         transform: rotateZ(15deg);
     }
     .photo p {
@@ -1212,40 +1217,40 @@ footer {
     
     .ryouou {
         border: #ED6139 solid 1px;
-        width: 820px;
-        height: 200px;
-        margin-left: 180px;
-        margin-top: 140px;
-        padding-left: 200px;
+        width: 270px;
+        height: 180px;
+        margin-left: 20px;
+        margin-top: 100px;
+        padding-left: 20px;
     }
     
     .tourika {
         border: #7ba23f solid 1px;
-        width: 820px;
-        height: 200px;
-        margin-left: 60px;
-        margin-top: 180px;
-        padding-left: 80px;
+        width: 270px;
+        height: 180px;
+        margin-left: 0px;
+        margin-top: 80px;
+        padding-left: 20px;
     }
     
     .karyoubinn {
         border: #ED6139 solid 1px;
-        width: 820px;
-        height: 200px;
-        margin-left: 180px;
-        margin-top: 180px;
-        padding-left: 200px;
+        width: 270px;
+        height: 180px;
+        margin-left: 20px;
+        margin-top: 80px;
+        padding-left: 20px;
     }
     
     #link {
-        padding: 140px 150px 90px;
+        padding: 90px 22px 20px;
         color: #fffffb;
     }
     #link h1 {
         padding: 100px 10px 0;
     }
     #link p {
-        text-align: center;
+        text-align: left;
     }
     
     .link {
@@ -1270,42 +1275,31 @@ footer {
     
     
     .instagram img {
-        width: 40px;
+        width: 20px;
         
     }
     .instagram p{
-        float: right;
-        padding-top: 8px;
-        padding-left: 10px;
-        font-size: 18px;
+        display: none;
     }
-    
     .youtube img {
-        width: 50px;
+        width: 23px;
         
     }
     .youtube p{
-        float: right;
-        padding-top: 8px;
-        padding-left: 10px;
-        font-size: 18px;
+        display: none;
     }
-    
     .facebook img {
-        width: 40px;
+        width: 20px;
         
     }
     .facebook p{
-        float: right;
-        padding-top: 8px;
-        padding-left: 10px;
-        font-size: 18px;
+        display: none;
     }
     
     .homepage img {
-        border: #fffffb solid 2px;
-        width: 350px;
-        margin-top: -20px;
+        border: #fffffb solid 1px;
+        width: 150px;
+        margin-top: -40px;
     }
     
     footer {
