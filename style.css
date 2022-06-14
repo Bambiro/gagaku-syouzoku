@@ -192,6 +192,9 @@ nav a {
     display: flex;
     justify-content: space-between;
 }
+@media only screen and (max-width: 1200px) {
+    .bugaku { flex-direction: column;}
+}
 
 .hidari {
     display: flex;
@@ -406,7 +409,6 @@ nav a {
     margin-left: 6%;
     margin-top: 18%;
     padding-left: 8%;
-    padding-right: 100px;
     padding-bottom: 5%;
 }
 
@@ -449,7 +451,11 @@ nav a {
     font-family: 'Source Sans Pro', sans-serif;
     letter-spacing: 1px;
 }
-
+@media only screen and (max-width: 1200px) {
+    .instagram p { display: none;}
+    .youtube p { display: none;}
+    .facebook p { display: none;}
+}
 
 .instagram img {
     width: 40px;
@@ -518,7 +524,6 @@ footer {
 @media print, screen and (min-width: 737px) {
     .a-modal-org__inner {
         width: 80vw;
-        width: 1200px;
     }
 }
 @media screen and (max-width: 736px) {
@@ -591,24 +596,24 @@ footer {
 }
 .memo-a1 .img1 {
     position: absolute;
-    width: 100px;
-    left: 620px;
-    top: 150px;
+    width: 10%;
+    left: 62%;
+    top: 30%;
     transform: rotateZ(20deg);
 }
 .memo-a1 .img2 {
     position: absolute;
-    width: 80px;
-    left: 920px;
-    top: 330px;
+    width: 8%;
+    left: 92%;
+    top: 53%;
     transform: rotateZ(0deg);
     z-index: 999;
 }
 .memo-a1 .img3 {
     position: absolute;
-    width: 130px;
-    left: 800px;
-    top: 360px;
+    width: 13%;
+    left: 80%;
+    top: 63%;
     transform: rotateZ(20deg);
 }
 
@@ -621,24 +626,24 @@ footer {
 }
 .memo-b1 .img1 {
     position: absolute;
-    width: 100px;
-    left: 620px;
-    top: 150px;
+    width: 10%;
+    left: 62%;
+    top: 30%;
     transform: rotateZ(20deg);
 }
 .memo-b1 .img2 {
     position: absolute;
-    width: 80px;
-    left: 920px;
-    top: 330px;
+    width: 8%;
+    left: 92%;
+    top: 53%;
     transform: rotateZ(0deg);
     z-index: 999;
 }
 .memo-b1 .img3 {
     position: absolute;
-    width: 130px;
-    left: 800px;
-    top: 360px;
+    width: 13%;
+    left: 80%;
+    top: 64%;
     transform: rotateZ(20deg);
 }
 
@@ -651,24 +656,24 @@ footer {
 }
 .memo-c1 .img1 {
     position: absolute;
-    width: 100px;
-    left: 620px;
-    top: 150px;
+    width: 10%;
+    left: 62%;
+    top: 30%;
     transform: rotateZ(20deg);
 }
 .memo-c1 .img2 {
     position: absolute;
-    width: 80px;
-    left: 920px;
-    top: 330px;
+    width: 8%;
+    left: 92%;
+    top: 53%;
     transform: rotateZ(0deg);
     z-index: 999;
 }
 .memo-c1 .img3 {
     position: absolute;
-    width: 130px;
-    left: 800px;
-    top: 360px;
+    width: 13%;
+    left: 80%;
+    top: 60%;
     transform: rotateZ(20deg);
 }
 
@@ -681,24 +686,24 @@ footer {
 }
 .memo-d1 .img1 {
     position: absolute;
-    width: 100px;
-    left: 620px;
-    top: 150px;
+    width: 10%;
+    left: 62%;
+    top: 30%;
     transform: rotateZ(20deg);
 }
 .memo-d1 .img2 {
     position: absolute;
-    width: 80px;
-    left: 920px;
-    top: 330px;
+    width: 8%;
+    left: 92%;
+    top: 53%;
     transform: rotateZ(0deg);
     z-index: 999;
 }
 .memo-d1 .img3 {
     position: absolute;
-    width: 130px;
-    left: 800px;
-    top: 360px;
+    width: 13%;
+    left: 80%;
+    top: 60%;
     transform: rotateZ(20deg);
 }
 
@@ -711,24 +716,24 @@ footer {
 }
 .memo-e1 .img1 {
     position: absolute;
-    width: 100px;
-    left: 620px;
-    top: 150px;
+    width: 10%;
+    left: 62%;
+    top: 30%;
     transform: rotateZ(20deg);
 }
 .memo-e1 .img2 {
     position: absolute;
-    width: 80px;
-    left: 920px;
-    top: 360px;
+    width: 8%;
+    left: 92%;
+    top: 63%;
     transform: rotateZ(0deg);
     z-index: 999;
 }
 .memo-e1 .img3 {
     position: absolute;
-    width: 130px;
-    left: 800px;
-    top: 390px;
+    width: 13%;
+    left: 80%;
+    top: 70%;
     transform: rotateZ(20deg);
 }
 
@@ -741,24 +746,24 @@ footer {
 }
 .memo-f1 .img1 {
     position: absolute;
-    width: 100px;
-    left: 620px;
-    top: 150px;
+    width: 10%;
+    left: 62%;
+    top: 30%;
     transform: rotateZ(20deg);
 }
 .memo-f1 .img2 {
     position: absolute;
-    width: 50px;
-    left: 920px;
-    top: 380px;
+    width: 5%;
+    left: 92%;
+    top: 60%;
     transform: rotateZ(0deg);
     z-index: 999;
 }
 .memo-f1 .img3 {
     position: absolute;
-    width: 90px;
-    left: 820px;
-    top: 390px;
+    width: 9%;
+    left: 82%;
+    top: 93%;
     transform: rotateZ(20deg);
 }
 
@@ -1207,8 +1212,8 @@ footer {
     }
     .photo6 {
         position: absolute;
-        width: 150px;
-        left: 65%;
+        width: 55%;
+        left: 58%;
         top: 1000px;
         transform: rotateZ(15deg);
     }
