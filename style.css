@@ -90,7 +90,14 @@ nav a {
     letter-spacing: 3px;
     color: #fffffb;
 }
-
+/* パソコンで見たときは"pc"のclassがついた画像が表示される */
+.pc { display: block !important; }
+.sp { display: none !important; }
+/* スマートフォンで見たときは"sp"のclassがついた画像が表示される */
+@media only screen and (max-width: 480px) {
+    .pc { display: none !important; }
+    .sp { display: block !important; }
+}
 .container {
     position: relative;
 	width: 100vw;
@@ -444,7 +451,6 @@ nav a {
 
 .instagram img {
     width: 40px;
-    
 }
 .instagram p{
     float: right;
@@ -455,7 +461,6 @@ nav a {
 
 .youtube img {
     width: 50px;
-    
 }
 .youtube p{
     float: right;
@@ -466,7 +471,6 @@ nav a {
 
 .facebook img {
     width: 40px;
-    
 }
 .facebook p{
     float: right;
@@ -828,6 +832,15 @@ footer {
 }
 
 /* ここからスマホ用 */
+/* パソコンで見たときは"pc"のclassがついた画像が表示される */
+.pc { display: block !important; }
+.sp { display: none !important; }
+/* スマートフォンで見たときは"sp"のclassがついた画像が表示される */
+@media only screen and (max-width: 480px) {
+    .pc { display: none !important; }
+    .sp { display: block !important; }
+}
+
 @media all and (max-width: 480px){
 
     h1 {
@@ -964,8 +977,8 @@ footer {
       }
     
     .orange {
-        margin-top: 160px;
-        padding: 70px 30px 0;
+        margin-top: -58px;
+        padding: 10px 30px 0;
         background-color: #ED6139;
     }
     
@@ -993,22 +1006,23 @@ footer {
         padding-top: 20px;
     }
     #about h2 {
-        font-size: 20px;
-        padding-top: 25px;
+        font-size: 14px;
+        padding-top: 5px;
     }
     #about h3 {
-        font-size: 16px;
-        padding-top: 30px;
+        font-size: 12px;
+        padding-top: 20px;
     }
     #about h4 {
-        font-size: 16px;
+        font-size: 10px;
     }
     #about img {
-        height: 314px;
-        width: 280px;
+        height: 204px;
+        width: 160px;
     }
     
     .bugaku {
+        flex-direction: column;
         
     }
     
@@ -1017,17 +1031,17 @@ footer {
         border: #ED6139 solid 3px;
         width: 300px;
         height: 210px;
-        margin-top: 60px;
+        margin-top: 45px;
         font-family: 'Noto Serif JP', serif;
         font-family: 'Shippori Mincho', serif;
         position: relative;
     }
     .hidari .moji {
-        padding: 44px;
+        padding: 45px 31px;
         text-align: center;
     }
     .hidari h4 {
-        padding-top: 45px;
+        padding-top: 15px;
     }
     .hidari span{
         color: #E22E00;
@@ -1038,16 +1052,16 @@ footer {
         border: #7ba23f solid 3px;
         width: 300px;
         height: 210px;
-        margin-top: 60px;
+        margin-top: 30px;
         font-family: 'Noto Serif JP', serif;
         font-family: 'Shippori Mincho', serif;
     }
     .migi .moji {
-        padding: 36px;
+        padding: 45px 30px;
         text-align: center;
     }
     .migi h4 {
-        padding-top: 35px;
+        padding-top: 15px;
     }
     .migi span {
         color: #024C47;
@@ -1214,6 +1228,9 @@ footer {
         transform: translateY(30px);
         transition: all 1.5s;
     }
+    .left {
+        padding-left: 90px;
+    }
     
     .ryouou {
         border: #ED6139 solid 1px;
@@ -1243,11 +1260,11 @@ footer {
     }
     
     #link {
-        padding: 90px 22px 20px;
+        padding: 90px 22px 30px;
         color: #fffffb;
     }
     #link h1 {
-        padding: 100px 10px 0;
+        padding: 70px 10px 0;
     }
     #link p {
         text-align: left;
@@ -1256,7 +1273,6 @@ footer {
     .link {
         display: flex;
         justify-content: space-between;
-        padding-top: 40px;
     }
     
     .fadein2 {
@@ -1275,22 +1291,22 @@ footer {
     
     
     .instagram img {
-        width: 20px;
-        
+        width: 25px;
+        padding-top: 3px;
     }
     .instagram p{
         display: none;
     }
     .youtube img {
-        width: 23px;
-        
+        width: 29px;
+        padding-top: 5px;
     }
     .youtube p{
         display: none;
     }
     .facebook img {
-        width: 20px;
-        
+        width: 25px;
+        padding-top: 3px;
     }
     .facebook p{
         display: none;
@@ -1299,7 +1315,8 @@ footer {
     .homepage img {
         border: #fffffb solid 1px;
         width: 150px;
-        margin-top: -40px;
+        height: 30px;
+        margin-top: 0px;
     }
     
     footer {
@@ -1352,15 +1369,13 @@ footer {
     @media print, screen and (min-width: 769px) {
         .a-modal-org__inner3 {
             height: 80vh;
-            
             border: 1.5rem solid #fff;
         }
     }
     @media print, screen and (max-width: 768px) {
         .a-modal-org__inner3 {
-            max-height: 70vh;
-            border-radius: 6px;
-            border: 1.125rem solid #fff;
+            max-height: 85vh;
+            border: 1.5rem solid #fff;
         }
     }
     .a-modal-org__body {
@@ -1378,202 +1393,203 @@ footer {
     }
     
     .a-modal-org__scroll {
-        padding: 15px 90px;
+        padding: 10px 0px;
         position: relative;
     }
     .a-modal-org__scroll h2 {
-        padding-left: 80px ;
+        font-size: 16px;
+        padding-left: 20px;
     }
     .a-modal-org__scroll img {
         padding-top: 10px;
-        width: 350px;
     }
     
     .a-modal-org__scroll p {
-        margin-top: 40px;
+        margin-top: 10px;
     }
     .a-modal-org__scroll h3 {
-        font-size: 20px;
-        margin-top: 130px;
+        font-size: 14px;
+        margin-top: 30px;
     }
     
     .memo-a {
-        display: flex;
+        flex-direction: column;
         position: relative;
     }
+    .memo-a .img0 {
+        text-align: center;
+        width: 280px;
+    }
     .memo-a1 {
-        padding-left: 80px;
+        padding-left: 10px;
     }
     .memo-a1 .img1 {
-        position: absolute;
-        width: 100px;
-        left: 620px;
-        top: 150px;
-        transform: rotateZ(20deg);
+        display: none;
     }
     .memo-a1 .img2 {
         position: absolute;
-        width: 80px;
-        left: 920px;
-        top: 330px;
+        width: 40px;
+        left: 200px;
+        top: 520px;
         transform: rotateZ(0deg);
         z-index: 999;
     }
     .memo-a1 .img3 {
         position: absolute;
-        width: 130px;
-        left: 800px;
-        top: 360px;
+        width: 55px;
+        left: 230px;
+        top: 480px;
         transform: rotateZ(20deg);
     }
     
     .memo-b {
-        display: flex;
+        flex-direction: column;
         position: relative;
     }
+    .memo-b .img0 {
+        text-align: center;
+        width: 280px;
+    }    
     .memo-b1 {
-        padding-left: 80px;
+        padding-left: 10px;
     }
     .memo-b1 .img1 {
-        position: absolute;
-        width: 100px;
-        left: 620px;
-        top: 150px;
-        transform: rotateZ(20deg);
+        display: none;
     }
     .memo-b1 .img2 {
         position: absolute;
-        width: 80px;
-        left: 920px;
-        top: 330px;
+        width: 40px;
+        left: 200px;
+        top: 520px;
         transform: rotateZ(0deg);
         z-index: 999;
     }
     .memo-b1 .img3 {
         position: absolute;
-        width: 130px;
-        left: 800px;
-        top: 360px;
+        width: 55px;
+        left: 230px;
+        top: 480px;
         transform: rotateZ(20deg);
     }
     
+    
     .memo-c {
-        display: flex;
+        flex-direction: column;
         position: relative;
     }
+    .memo-c .img0 {
+        text-align: center;
+        width: 280px;
+    } 
     .memo-c1 {
-        padding-left: 80px;
+        padding-left: 10px;
     }
     .memo-c1 .img1 {
-        position: absolute;
-        width: 100px;
-        left: 620px;
-        top: 150px;
-        transform: rotateZ(20deg);
+        display: none;
     }
     .memo-c1 .img2 {
         position: absolute;
-        width: 80px;
-        left: 920px;
-        top: 330px;
+        width: 40px;
+        left: 200px;
+        top: 470px;
         transform: rotateZ(0deg);
         z-index: 999;
     }
     .memo-c1 .img3 {
         position: absolute;
-        width: 130px;
-        left: 800px;
-        top: 360px;
+        width: 55px;
+        left: 230px;
+        top: 430px;
         transform: rotateZ(20deg);
     }
     
     .memo-d {
-        display: flex;
+        flex-direction: column;
         position: relative;
     }
+    .memo-d .img0 {
+        text-align: center;
+        width: 280px;
+    }
     .memo-d1 {
-        padding-left: 80px;
+        padding-left: 10px;
     }
     .memo-d1 .img1 {
-        position: absolute;
-        width: 100px;
-        left: 620px;
-        top: 150px;
-        transform: rotateZ(20deg);
+        display: none;
     }
     .memo-d1 .img2 {
         position: absolute;
-        width: 80px;
-        left: 920px;
-        top: 330px;
+        width: 40px;
+        left: 200px;
+        top: 470px;
         transform: rotateZ(0deg);
         z-index: 999;
     }
     .memo-d1 .img3 {
         position: absolute;
-        width: 130px;
-        left: 800px;
-        top: 360px;
+        width: 55px;
+        left: 230px;
+        top: 430px;
         transform: rotateZ(20deg);
     }
     
     .memo-e {
-        display: flex;
+        flex-direction: column;
         position: relative;
     }
+    .memo-e .img0 {
+        padding-left: 20px;
+        width: 270px;
+    }
     .memo-e1 {
-        padding-left: 80px;
+        padding-left: 10px;
     }
     .memo-e1 .img1 {
-        position: absolute;
-        width: 100px;
-        left: 620px;
-        top: 150px;
-        transform: rotateZ(20deg);
+        display: none;
     }
     .memo-e1 .img2 {
         position: absolute;
-        width: 80px;
-        left: 920px;
-        top: 360px;
+        width: 40px;
+        left: 200px;
+        top: 495px;
         transform: rotateZ(0deg);
         z-index: 999;
     }
     .memo-e1 .img3 {
         position: absolute;
-        width: 130px;
-        left: 800px;
-        top: 390px;
+        width: 55px;
+        left: 230px;
+        top: 460px;
         transform: rotateZ(20deg);
     }
     
     .memo-f {
-        display: flex;
+        flex-direction: column;
         position: relative;
     }
+    .memo-f .img0 {
+        text-align: center;
+        width: 280px;
+    }
     .memo-f1 {
-        padding-left: 55px;
+        padding-left: 10px;
     }
     .memo-f1 .img1 {
-        position: absolute;
-        width: 100px;
-        left: 620px;
-        top: 150px;
-        transform: rotateZ(20deg);
+        display: none;
     }
     .memo-f1 .img2 {
         position: absolute;
-        width: 50px;
-        left: 920px;
-        top: 380px;
+        width: 40px;
+        left: 200px;
+        top: 470px;
         transform: rotateZ(0deg);
         z-index: 999;
     }
     .memo-f1 .img3 {
         position: absolute;
-        width: 90px;
-        left: 820px;
-        top: 390px;
+        width: 55px;
+        left: 230px;
+        top: 430px;
         transform: rotateZ(20deg);
     }
     
