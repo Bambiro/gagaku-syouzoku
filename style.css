@@ -967,10 +967,11 @@ footer {
     .fv h1{
         writing-mode: vertical-rl;
         color: #1c1c1c;
-        font-size: 20px;
+        text-shadow: 1px 1px 2px #fffffb;
+        font-size: 130%;
         position: absolute;
-        top: 510px;
-        left: 350px;
+        top: 55%;
+        left: 80%;
         font-family: 'Noto Serif JP', serif;
         font-family: 'Shippori Mincho', serif;
         letter-spacing: 10px;
@@ -1029,7 +1030,7 @@ footer {
     .hidari {
         display: flex;
         border: #ED6139 solid 3px;
-        width: 300px;
+        width: 73vw;
         height: 210px;
         margin-top: 45px;
         font-family: 'Noto Serif JP', serif;
@@ -1037,7 +1038,7 @@ footer {
         position: relative;
     }
     .hidari .moji {
-        padding: 45px 31px;
+        padding: 45px 32px;
         text-align: center;
     }
     .hidari h4 {
@@ -1050,7 +1051,7 @@ footer {
     .migi {
         display: flex;
         border: #7ba23f solid 3px;
-        width: 300px;
+        width: 73vw;
         height: 210px;
         margin-top: 30px;
         font-family: 'Noto Serif JP', serif;
@@ -1091,66 +1092,66 @@ footer {
     
     
     .tori img {
-        width: 240px;
+        width: 80%;
         top: 130px;
-        left: 80px;
+        left: 25%;
         transform: rotateZ(20deg);
         z-index: 998;
     }
     .tori p {
         position: absolute;
         top: 130px;
-        left: 250px;
+        left: 87%;
     }
     .hana1 img{
-        width: 90px;
+        width: 33%;
         transform: rotateZ(10deg);
         top: 270px;
-        left: 80px;
+        left: 25%;
     }
     .hana2 img{
-        width: 130px;
+        width: 45%;
         transform: rotateZ(350deg);
         top: 310px;
-        left: 150px;
+        left: 52%;
     }
     .hana1 p {
         position: absolute;
         top: 360px;
-        left: 120px;
+        left: 40%;
     }
     .tyou img {
-        width: 120px;
+        width: 43%;
         top: 380px;
-        left: 10px;
+        left: 3%;
     }
     .tyou p {
         position: absolute;
         top: 540px;
-        left: 15px;
+        left: 5%;
     }
     .ryu img {
         position: absolute;
-        width: 180px;
+        width: 66%;
         top: 510px;
-        left: 135px;
+        left: 40%;
     }
     .ryu p {
         position: absolute;
         top: 665px;
-        left: 270px;
+        left: 93%;
     }
     .shishi img {
         position: absolute;
-        width: 210px;
+        width: 75%;
         transform: rotateZ(20deg);
         top: 710px;
-        left: -20px;
+        left: -8%;
     }
     .shishi p {
         position: absolute;
         top: 830px;
-        left: 50px;
+        left: 15%;
     }
     /* ._a {
         display: inline-block;
@@ -1181,7 +1182,7 @@ footer {
         top: -20px;
     }
     .photo2 {
-        left: 180px;
+        left: 60%;
         top: -30px;
     }
     .photo3 {
@@ -1191,22 +1192,22 @@ footer {
     .photo4 {
         position: absolute;
         width: 50px;
-        left: -20px;
+        left: -8%;
         top: 350px;
         transform: rotateZ(20deg);
     }
     .photo5 {
         position: absolute;
         width: 60px;
-        left: 250px;
+        left: 85%;
         top: 60px;
         transform: rotateZ(15deg);
     }
     .photo6 {
         position: absolute;
         width: 150px;
-        left: 200px;
-        top: 940px;
+        left: 65%;
+        top: 1000px;
         transform: rotateZ(15deg);
     }
     .photo p {
@@ -1234,8 +1235,7 @@ footer {
     
     .ryouou {
         border: #ED6139 solid 1px;
-        width: 270px;
-        height: 180px;
+        width: 65vw;
         margin-left: 20px;
         margin-top: 100px;
         padding-left: 20px;
@@ -1243,8 +1243,7 @@ footer {
     
     .tourika {
         border: #7ba23f solid 1px;
-        width: 270px;
-        height: 180px;
+        width: 65vw;
         margin-left: 0px;
         margin-top: 80px;
         padding-left: 20px;
@@ -1252,8 +1251,7 @@ footer {
     
     .karyoubinn {
         border: #ED6139 solid 1px;
-        width: 270px;
-        height: 180px;
+        width: 65vw;
         margin-left: 20px;
         margin-top: 80px;
         padding-left: 20px;
