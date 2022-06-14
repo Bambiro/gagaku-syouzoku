@@ -1256,6 +1256,9 @@ footer {
         margin-top: 80px;
         padding-left: 20px;
     }
+    .bun {
+        margin-bottom: 20px;
+    }
     
     #link {
         padding: 90px 22px 30px;
@@ -1416,7 +1419,7 @@ footer {
     }
     .memo-a .img0 {
         text-align: center;
-        width: 280px;
+        width: 100%;
     }
     .memo-a1 {
         padding-left: 10px;
@@ -1426,17 +1429,17 @@ footer {
     }
     .memo-a1 .img2 {
         position: absolute;
-        width: 40px;
-        left: 200px;
-        top: 520px;
+        width: 15%;
+        left: 70%;
+        top: 82%;
         transform: rotateZ(0deg);
         z-index: 999;
     }
     .memo-a1 .img3 {
         position: absolute;
-        width: 55px;
-        left: 230px;
-        top: 480px;
+        width: 18%;
+        left: 80%;
+        top: 75%;
         transform: rotateZ(20deg);
     }
     
@@ -1456,17 +1459,17 @@ footer {
     }
     .memo-b1 .img2 {
         position: absolute;
-        width: 40px;
-        left: 200px;
-        top: 520px;
+        width: 15%;
+        left: 70%;
+        top: 82%;
         transform: rotateZ(0deg);
         z-index: 999;
     }
     .memo-b1 .img3 {
         position: absolute;
-        width: 55px;
-        left: 230px;
-        top: 480px;
+        width: 18%;
+        left: 80%;
+        top: 75%;
         transform: rotateZ(20deg);
     }
     
@@ -1487,17 +1490,17 @@ footer {
     }
     .memo-c1 .img2 {
         position: absolute;
-        width: 40px;
-        left: 200px;
-        top: 470px;
+        width: 15%;
+        left: 70%;
+        top: 82%;
         transform: rotateZ(0deg);
         z-index: 999;
     }
     .memo-c1 .img3 {
         position: absolute;
-        width: 55px;
-        left: 230px;
-        top: 430px;
+        width: 18%;
+        left: 80%;
+        top: 75%;
         transform: rotateZ(20deg);
     }
     
@@ -1517,17 +1520,17 @@ footer {
     }
     .memo-d1 .img2 {
         position: absolute;
-        width: 40px;
-        left: 200px;
-        top: 470px;
+        width: 15%;
+        left: 70%;
+        top: 82%;
         transform: rotateZ(0deg);
         z-index: 999;
     }
     .memo-d1 .img3 {
         position: absolute;
-        width: 55px;
-        left: 230px;
-        top: 430px;
+        width: 18%;
+        left: 80%;
+        top: 75%;
         transform: rotateZ(20deg);
     }
     
@@ -1547,17 +1550,17 @@ footer {
     }
     .memo-e1 .img2 {
         position: absolute;
-        width: 40px;
-        left: 200px;
-        top: 495px;
+        width: 15%;
+        left: 70%;
+        top: 83%;
         transform: rotateZ(0deg);
         z-index: 999;
     }
     .memo-e1 .img3 {
         position: absolute;
-        width: 55px;
-        left: 230px;
-        top: 460px;
+        width: 18%;
+        left: 80%;
+        top: 77%;
         transform: rotateZ(20deg);
     }
     
@@ -1577,17 +1580,17 @@ footer {
     }
     .memo-f1 .img2 {
         position: absolute;
-        width: 40px;
-        left: 200px;
-        top: 470px;
+        width: 15%;
+        left: 70%;
+        top: 82%;
         transform: rotateZ(0deg);
         z-index: 999;
     }
     .memo-f1 .img3 {
         position: absolute;
-        width: 55px;
-        left: 230px;
-        top: 430px;
+        width: 18%;
+        left: 80%;
+        top: 75%;
         transform: rotateZ(20deg);
     }
     
