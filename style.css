@@ -62,8 +62,8 @@ nav {
     height: 160px;
     display: flex;
     justify-content: space-between;
-    padding-left: 300px;
-    padding-right: 160px;
+    padding-left: 24%;
+    padding-right: 12%;
     background-color: #ED6139;
 }
 nav p {
@@ -75,7 +75,7 @@ nav p {
 }
 nav ul {
     display: flex;
-    width: 330px;
+    width: 30%;
     justify-content: space-between;
 }
 nav li {
@@ -136,8 +136,8 @@ nav a {
     color: #1c1c1c;
     font-size: 24px;
     position: absolute;
-    top: 310px;
-    left: 1250px;
+    top: 43%;
+    left: 87%;
     font-family: 'Noto Serif JP', serif;
     font-family: 'Shippori Mincho', serif;
     letter-spacing: 10px;
@@ -145,13 +145,13 @@ nav a {
 
 .orange {
     margin-top: 130px;
-    padding: 50px 50px 0;
+    padding: 3% 3% 0;
     background-color: #ED6139;
 }
 
 .white {
     margin-top: 0px;
-    padding: 0 160px 160px;
+    padding: 0 15% 15%;
     background-color: #fffffb;
 }
 
@@ -162,19 +162,19 @@ nav a {
 }
 
 #about {
-    margin-bottom: 280px;
-    padding-top: 150px;
+    margin-bottom: 26%;
+    padding-top: 14%;
 }
 
 #about h1 {
-    padding-top: 60px;
+    padding-top: 5%;
 }
 #about p {
-    padding-top: 20px;
+    padding-top: 1%;
 }
 #about h2 {
     font-size: 20px;
-    padding-top: 25px;
+    padding-top: 2%;
 }
 #about h3 {
     font-size: 16px;
@@ -253,66 +253,66 @@ nav a {
 
 
 .tori img {
-    width: 470px;
-    top: 40px;
-    left: 600px;
+    width: 50%;
+    top: 3%;
+    left: 60%;
     transform: rotateZ(20deg);
     z-index: 998;
 }
 .tori p {
     position: absolute;
-    top: 230px;
-    left: 980px;
+    top: 22%;
+    left: 95%;
 }
 .hana1 img{
-    width: 220px;
+    width: 23%;
     transform: rotateZ(10deg);
-    top: 150px;
-    left: 360px;
+    top: 13%;
+    left: 36%;
 }
 .hana2 img{
-    width: 200px;
+    width: 20%;
     transform: rotateZ(350deg);
-    top: 280px;
-    left: 510px;
+    top: 24%;
+    left: 55%;
 }
 .hana1 p {
     position: absolute;
-    top: 350px;
-    left: 450px;
+    top: 30%;
+    left: 50%;
 }
 .tyou img {
-    width: 180px;
-    top: 200px;
-    left: 160px;
+    width: 20%;
+    top: 20%;
+    left: 16%;
 }
 .tyou p {
     position: absolute;
-    top: 360px;
-    left: 130px;
+    top: 32%;
+    left: 13%;
 }
 .ryu img {
     position: absolute;
-    width: 430px;
-    top: 360px;
-    left: 640px;
+    width: 45%;
+    top: 33%;
+    left: 68%;
 }
 .ryu p {
     position: absolute;
-    top: 565px;
-    left: 970px;
+    top: 50%;
+    left: 103%;
 }
 .shishi img {
     position: absolute;
-    width: 410px;
+    width: 43%;
     transform: rotateZ(20deg);
-    top: 490px;
-    left: -20px;
+    top: 44%;
+    left: -2%;
 }
 .shishi p {
     position: absolute;
-    top: 600px;
-    left: 170px;
+    top: 62%;
+    left: 15%;
 }
 /* ._a {
     display: inline-block;
@@ -338,36 +338,36 @@ nav a {
     border: #fffffb solid 5px;
 }
 .photo1 {
-    left: 60px;
-    top: -30px;
+    left: 6%;
+    top: -15%;
 }
 .photo2 {
-    left: 740px;
-    top: -30px;
+    left: 78%;
+    top: -15%;
 }
 .photo3 {
-    left: 60px;
-    top: -30px;
+    left: 6%;
+    top: -15%;
 }
 .photo4 {
     position: absolute;
-    width: 160px;
-    left: -100px;
-    top: 400px;
+    width: 16%;
+    left: -10%;
+    top: 33%;
     transform: rotateZ(20deg);
 }
 .photo5 {
     position: absolute;
-    width: 100px;
-    left: 1000px;
-    top: 30px;
+    width: 10%;
+    left: 99%;
+    top: 3%;
     transform: rotateZ(15deg);
 }
 .photo6 {
     position: absolute;
-    width: 250px;
-    left: 960px;
-    top: 1190px;
+    width: 25%;
+    left: 97%;
+    top: 105%;
     transform: rotateZ(15deg);
 }
 .photo p {
@@ -392,29 +392,31 @@ nav a {
 
 .ryouou {
     border: #ED6139 solid 1px;
-    width: 820px;
+    width: 86%;
     height: 200px;
-    margin-left: 180px;
-    margin-top: 140px;
-    padding-left: 200px;
+    margin-left: 20%;
+    margin-top: 14%;
+    padding-left: 20%;
+    padding-bottom: 5%;
 }
 
 .tourika {
     border: #7ba23f solid 1px;
-    width: 820px;
-    height: 200px;
-    margin-left: 60px;
-    margin-top: 180px;
-    padding-left: 80px;
+    width: 86%;
+    margin-left: 6%;
+    margin-top: 18%;
+    padding-left: 8%;
+    padding-right: 100px;
+    padding-bottom: 5%;
 }
 
 .karyoubinn {
     border: #ED6139 solid 1px;
-    width: 820px;
-    height: 200px;
-    margin-left: 180px;
-    margin-top: 180px;
-    padding-left: 200px;
+    width: 86%;
+    margin-left: 20%;
+    margin-top: 18%;
+    padding-left: 20%;
+    padding-bottom: 5%;
 }
 
 #link {
