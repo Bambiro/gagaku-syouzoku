@@ -336,8 +336,8 @@ nav a {
 
 .photo img{
     position: absolute;
-    width: 255px;
-    height: 210px;
+    width: 27%;
+    height: auto;
     border: #fffffb solid 5px;
 }
 .photo1 {
