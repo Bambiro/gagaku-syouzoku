@@ -992,7 +992,7 @@ footer {
     
     .white {
         margin-top: 0px;
-        padding: 0 30px 160px;
+        padding: 0 20px 160px;
         background-color: #fffffb;
     }
     
@@ -1031,7 +1031,6 @@ footer {
     
     .bugaku {
         flex-direction: column;
-        
     }
     
     .hidari {
@@ -1040,6 +1039,8 @@ footer {
         width: 73vw;
         height: 210px;
         margin-top: 45px;
+        margin-left: auto;
+        margin-right: auto;
         font-family: 'Noto Serif JP', serif;
         font-family: 'Shippori Mincho', serif;
         position: relative;
@@ -1061,6 +1062,8 @@ footer {
         width: 73vw;
         height: 210px;
         margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
         font-family: 'Noto Serif JP', serif;
         font-family: 'Shippori Mincho', serif;
     }
@@ -1189,7 +1192,7 @@ footer {
         top: -20px;
     }
     .photo2 {
-        left: 60%;
+        left: 63%;
         top: -30px;
     }
     .photo3 {
@@ -1212,10 +1215,10 @@ footer {
     }
     .photo6 {
         position: absolute;
-        width: 55%;
-        left: 58%;
-        top: 1000px;
-        transform: rotateZ(15deg);
+        width: 50%;
+        left: 60%;
+        top: 1020px;
+        transform: rotateZ(13deg);
     }
     .photo p {
         padding-top: 20px;
@@ -1243,7 +1246,7 @@ footer {
     .ryouou {
         border: #ED6139 solid 1px;
         width: 65vw;
-        margin-left: 20px;
+        margin-left: 40px;
         margin-top: 100px;
         padding-left: 20px;
     }
@@ -1259,7 +1262,7 @@ footer {
     .karyoubinn {
         border: #ED6139 solid 1px;
         width: 65vw;
-        margin-left: 20px;
+        margin-left: 40px;
         margin-top: 80px;
         padding-left: 20px;
     }
