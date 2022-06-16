@@ -666,7 +666,7 @@ footer {
     position: absolute;
     width: 8%;
     left: 92%;
-    top: 53%;
+    top: 63%;
     transform: rotateZ(0deg);
     z-index: 999;
 }
@@ -674,7 +674,7 @@ footer {
     position: absolute;
     width: 13%;
     left: 80%;
-    top: 60%;
+    top: 65%;
     transform: rotateZ(20deg);
 }
 
@@ -696,7 +696,7 @@ footer {
     position: absolute;
     width: 8%;
     left: 92%;
-    top: 53%;
+    top: 63%;
     transform: rotateZ(0deg);
     z-index: 999;
 }
@@ -704,7 +704,7 @@ footer {
     position: absolute;
     width: 13%;
     left: 80%;
-    top: 60%;
+    top: 65%;
     transform: rotateZ(20deg);
 }
 
@@ -764,7 +764,7 @@ footer {
     position: absolute;
     width: 9%;
     left: 82%;
-    top: 93%;
+    top: 83%;
     transform: rotateZ(20deg);
 }
 
