@@ -144,7 +144,7 @@ nav a {
   }
 
 .orange {
-    margin-top: 130px;
+    margin-top: 160px;
     padding: 3% 3% 0;
     background-color: #ED6139;
 }
@@ -286,35 +286,35 @@ nav a {
 }
 .tyou img {
     width: 20%;
-    top: 20%;
+    top: 17%;
     left: 16%;
 }
 .tyou p {
     position: absolute;
-    top: 32%;
+    top: 27%;
     left: 13%;
 }
 .ryu img {
     position: absolute;
     width: 45%;
-    top: 33%;
+    top: 30%;
     left: 68%;
 }
 .ryu p {
     position: absolute;
-    top: 50%;
+    top: 47%;
     left: 103%;
 }
 .shishi img {
     position: absolute;
     width: 43%;
     transform: rotateZ(20deg);
-    top: 44%;
+    top: 39%;
     left: -2%;
 }
 .shishi p {
     position: absolute;
-    top: 62%;
+    top: 55%;
     left: 15%;
 }
 ._a {
