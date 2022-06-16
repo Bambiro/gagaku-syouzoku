@@ -320,6 +320,7 @@ nav a {
 ._a {
     display: inline-block;
     background: #1c1c1c;
+    transition: all .4s ease-in-out;
 }
 ._a img {
     display: block;
@@ -1166,6 +1167,7 @@ footer {
     ._a {
         display: inline-block;
         background: #1c1c1c;
+        transition: all .4s ease-in-out;
     }
     ._a img {
         display: block;
